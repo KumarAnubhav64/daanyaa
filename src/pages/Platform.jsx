@@ -12,41 +12,7 @@ export default function Platform() {
           variant="hero"
         />
 
-        <SectionHeader
-          title="Core Features"
-          caption="Everything you need to transform your publishing experience"
-          className="mb-16"
-          variant="large"
-        />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 pb-20">
-          <div className="bg-white rounded-2xl p-8 shadow-sm">
-            <SectionHeader
-              title="AI Content Analysis"
-              caption="Deep insights into your content performance and reader engagement patterns."
-              variant="feature"
-              alignment="left"
-            />
-          </div>
-
-          <div className="bg-white rounded-2xl p-8 shadow-sm">
-            <SectionHeader
-              title="Smart Recommendations"
-              caption="AI-powered content suggestions to boost reader retention and engagement."
-              variant="feature"
-              alignment="left"
-            />
-          </div>
-
-          <div className="bg-white rounded-2xl p-8 shadow-sm">
-            <SectionHeader
-              title="Revenue Optimization"
-              caption="Maximize your publishing revenue with intelligent monetization strategies."
-              variant="feature"
-              alignment="left"
-            />
-          </div>
-        </div>
       </div>
 
       {/* Interactive Feature Showcase */}
