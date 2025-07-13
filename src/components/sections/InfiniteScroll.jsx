@@ -1,6 +1,6 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
-import { ReactLogo,AstroLogo,TailwindLogo,JSLogo,NextjsLogo,RemixLogo,TSLogo,SvelteLogo,VueLogo } from './ui/Logo';
+import { ReactLogo,AstroLogo,TailwindLogo,JSLogo,NextjsLogo,RemixLogo,TSLogo,SvelteLogo,VueLogo } from '../ui/Logo';
 
 const companyNames = [
   'Acme',

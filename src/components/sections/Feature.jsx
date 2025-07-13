@@ -1,5 +1,5 @@
 import React from "react";
-import { FeatureCard } from "./ui/Card";
+import { FeatureCard } from "../ui/Card";
 
 const features = [
   {

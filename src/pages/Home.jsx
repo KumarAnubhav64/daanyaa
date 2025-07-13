@@ -1,18 +1,17 @@
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import InfiniteScrollingLogosAnimation from '../components/InfiniteScroll';
-import Feature from '../components/Feature';
-import AIFeatures from '../components/AIFeatures';
-import BookingSection from '../components/BookingSection';
+import Hero from '../components/sections/Hero';
+import InfiniteScrollingLogosAnimation from '../components/sections/InfiniteScroll';
+import ContentSection from '../components/sections/ContentSection';
+import Feature from '../components/sections/Feature';
+import AIFeatures from '../components/sections/AIFeatures';
+import BookingSection from '../components/sections/BookingSection';
 import Useage from '../components/Useage';
 import Launch from '../components/Launch';
 import Motion from '../components/Motion';
-import ContentSection from '../components/ContentSection';
-import Footer from '../components/Footer';
+import SmoothScroll from '../components/SmoothScroll';
 export default function Home() {
   return (
     <>
-      <Navbar />
+      {/* <SmoothScroll> */}
       <Hero />
       <InfiniteScrollingLogosAnimation />
       <ContentSection />
@@ -22,7 +21,7 @@ export default function Home() {
       {/* <Useage />
       <Launch />
       <Motion /> */}
-      <Footer />
+      {/* </SmoothScroll> */}
     </>
   );
 }

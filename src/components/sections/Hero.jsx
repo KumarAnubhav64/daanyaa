@@ -1,4 +1,4 @@
-import { Button } from '../components/ui/Button';
+import { Button } from "../ui/Button";
 
 export default function Hero() {
   return (
@@ -15,7 +15,7 @@ export default function Hero() {
           <Button className="bg-[#715482] text-white px-8 py-4 rounded-full text-lg font-semibold hover:opacity-90 transition">
             Book a Free Demo
           </Button>
-          <Button variant="outline" className="border-[#715482] text-[#715482] px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#715482] hover:text-white transition">
+          <Button variant="outline" className="border-[#715482] text-[#715482] px-8 py-4 rounded-full text-lg font-semibold hover:bg-[#715482] transition">
             Explore the Platform
           </Button>
         </div>

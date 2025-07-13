@@ -4,6 +4,10 @@
   font-family: 'Urbanist', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Urbanist', sans-serif;
 }
