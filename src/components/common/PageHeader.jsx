@@ -6,7 +6,7 @@ export default function PageHeader({ title, caption, className = "", variant = "
       caption: "text-lg md:text-xl text-[#715482] max-w-3xl mx-auto"
     },
     hero: {
-      container: "text-center py-32",
+      container: "text-center py-16 pt-32",
       title: "text-5xl md:text-7xl  text-[#715482] mb-8 leading-tight",
       caption: "text-xl md:text-2xl text-[#715482] max-w-4xl mx-auto"
     },
