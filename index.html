@@ -4,11 +4,30 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Publisher.AI - AI-Powered Publishing Platform</title>
+
+    <!-- Font preloading for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" as="style">
+
+    <!-- Font loading script to prevent FOUT -->
+    <script>
+      // Add fonts-loaded class when fonts are ready
+      if ('fonts' in document) {
+        document.fonts.ready.then(() => {
+          document.body.classList.add('fonts-loaded');
+        });
+      } else {
+        // Fallback for older browsers
+        setTimeout(() => {
+          document.body.classList.add('fonts-loaded');
+        }, 1000);
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-
   </body>
 </html>
