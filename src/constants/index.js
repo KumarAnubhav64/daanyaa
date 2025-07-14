@@ -1,9 +1,8 @@
 // Navigation constants
 export const NAV_LINKS = [
-  { label: "Home", href: "/" },
   { label: "The Platform", href: "/platform" },
   { label: "Monetization", href: "/monetization" },
-  { label: "Why Publisher.AI?", href: "/why-publisher-ai" },
+  { label: "Why DAaranya.AI?", href: "/why-publisher-ai" },
   { label: "Pricing", href: "/pricing" },
   { label: "Contact", href: "/contact" },
 ];
@@ -18,7 +17,7 @@ export const BRAND_COLORS = {
 
 // Company information
 export const COMPANY_INFO = {
-  name: "Publisher.AI",
+  name: "DAaranya.AI",
   email: "hello@publisherai.com",
   phone: "+1 (555) 123-4567",
   address: {

@@ -7,7 +7,7 @@ export default function Contact() {
             Get in Touch
           </h1>
           <p className="text-xl text-[#715482] max-w-2xl mx-auto">
-            Ready to transform your publishing platform? Let's discuss how Publisher.AI can help you grow.
+            Ready to transform your publishing platform? Let's discuss how DAaranya.AI can help you grow.
           </p>
         </div>
 

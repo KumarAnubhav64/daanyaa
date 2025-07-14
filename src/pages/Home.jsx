@@ -13,7 +13,7 @@ export default function Home() {
     <>
       {/* <SmoothScroll> */}
       <Hero />
-      <InfiniteScrollingLogosAnimation />
+      {/* <InfiniteScrollingLogosAnimation /> */}
       <ContentSection />
       <Feature />
       <AIFeatures />

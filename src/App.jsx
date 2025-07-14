@@ -1,25 +1,20 @@
-import { useState } from 'react';
+import { useEffect } from 'react';
 import { RouterProvider } from 'react-router-dom';
 import { router } from './utils/router';
-import LoadingScreen from './components/common/LoadingScreen';
 
 export default function App() {
-  const [isLoading, setIsLoading] = useState(true);
-
-  const handleLoadComplete = () => {
-    setIsLoading(false);
-    // Add a small delay before triggering content animations
-    setTimeout(() => {
+  useEffect(() => {
+    // Trigger content animations immediately after component mounts
+    const timer = setTimeout(() => {
       document.body.classList.add('content-loaded');
-    }, 200);
-  };
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
-    <>
-      {isLoading && <LoadingScreen onLoadComplete={handleLoadComplete} />}
-      <div className={`${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-500`}>
-        <RouterProvider router={router} />
-      </div>
-    </>
+    <div className="opacity-100 transition-opacity duration-500">
+      <RouterProvider router={router} />
+    </div>
   );
 }

@@ -13,7 +13,7 @@ export default function AIAudioDemo() {
               <textarea
                 placeholder="Paste your article text here or try our sample..."
                 className="w-full h-32 p-4 border-2 border-gray-300 rounded-xl focus:ring-2 focus:ring-[#715482] focus:border-transparent resize-none"
-                defaultValue="Welcome to Publisher.AI, where artificial intelligence meets content creation. Our platform transforms how publishers engage with their audience through intelligent automation and personalized experiences."
+                defaultValue="Welcome to DAaranya.AI, where artificial intelligence meets content creation. Our platform transforms how publishers engage with their audience through intelligent automation and personalized experiences."
               />
               <div className="mt-4 space-y-3">
                 <div>
@@ -36,7 +36,7 @@ export default function AIAudioDemo() {
               <div className="bg-gray-100 rounded-xl p-6">
                 <div className="text-center mb-4">
                   <h5 className="font-medium text-gray-800">Now Playing</h5>
-                  <p className="text-sm text-gray-600">"Welcome to Publisher.AI..."</p>
+                  <p className="text-sm text-gray-600">"Welcome to DAaranya.AI..."</p>
                 </div>
 
                 <div className="flex items-center justify-center mb-4">

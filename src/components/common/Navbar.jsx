@@ -1,4 +1,4 @@
-import { Menu, X } from 'lucide-react';
+import { Menu, X ,Sparkles} from 'lucide-react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { NAV_LINKS } from '../../constants';
@@ -13,8 +13,9 @@ export default function Navbar() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <Link to="/" className="text-2xl font-bold text-[#715482] tracking-tight hover:opacity-90 transition">
-            Publisher.AI
+            DAaranya.AI
           </Link>
+          <Sparkles className="w-6 h-6 text-[#715482] animate-pulse" />
         </div>
 
         {/* Desktop Nav */}
@@ -34,7 +35,7 @@ export default function Navbar() {
         {/* Desktop CTA Button */}
         <div className="hidden xl:block">
           <Link
-            to="/contact"
+            to="/login"
             className="inline-block px-6 py-2 rounded-full bg-[#715482] text-white text-md font-medium hover:opacity-90 transition"
           >
             Login
@@ -62,7 +63,7 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            to="/contact"
+            to="/login"
             className="block text-white bg-[#715482] rounded-full px-6 py-3 text-center hover:opacity-90 transition-opacity"
             onClick={() => setIsMenuOpen(false)}
           >

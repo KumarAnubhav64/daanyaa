@@ -4,10 +4,20 @@ import Home from '../pages/Home';
 import Platform from '../pages/Platform';
 import Pricing from '../pages/Pricing';
 import Contact from '../pages/Contact';
+import Login from '../pages/Login';
+import Signup from '../pages/Signup';
 import ComponentExamples from '../pages/ComponentExamples';
 import InteractiveDemo from '../pages/InteractiveDemo';
 
 export const router = createBrowserRouter([
+  {
+    path: '/login',
+    element: <Login />,
+  },
+  {
+    path: '/signup',
+    element: <Signup />,
+  },
   {
     path: '/',
     element: <MainLayout />,
@@ -43,7 +53,7 @@ export const router = createBrowserRouter([
       },
       {
         path: 'why-publisher-ai',
-        element: <div className="py-32 text-center"><h1 className="text-4xl">Why Publisher.AI - Coming Soon</h1></div>,
+        element: <div className="py-32 text-center"><h1 className="text-4xl">Why DAaranya.AI - Coming Soon</h1></div>,
       },
     ],
   },
