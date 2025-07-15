@@ -2,14 +2,14 @@ export default function AgentAccessDemo() {
   return (
     <div className="max-w-4xl mx-auto">
       <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
-        <div className="bg-gradient-to-r from-[#715482] to-[#8B6794] text-white p-6">
+        <div className="bg-gradient-to-r from-[#6B4F4E] to-[#8B6794] text-white p-6">
           <h3 className="text-2xl font-bold">Agent Access Layer (MCP)</h3>
           <p className="text-white/80">Future-proof your content for AI agents and autonomous systems</p>
         </div>
         <div className="p-6">
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <h4 className="font-semibold text-[#715482] mb-4">🔗 MCP Integration Status</h4>
+              <h4 className="font-semibold text-[#6B4F4E] mb-4">🔗 MCP Integration Status</h4>
               <div className="space-y-4">
                 {[
                   { feature: "Content Indexing", status: "complete", progress: 100 },
@@ -44,7 +44,7 @@ export default function AgentAccessDemo() {
               </div>
 
               <div className="mt-6 p-4 bg-gray-50 rounded-xl">
-                <h5 className="font-semibold text-[#715482] mb-3">🤖 Connected AI Agents</h5>
+                <h5 className="font-semibold text-[#6B4F4E] mb-3">🤖 Connected AI Agents</h5>
                 <div className="space-y-2">
                   {[
                     { name: "Research Assistant Agents", count: "12 active", color: "green" },
@@ -62,7 +62,7 @@ export default function AgentAccessDemo() {
             </div>
 
             <div>
-              <h4 className="font-semibold text-[#715482] mb-4">📊 API Usage Analytics</h4>
+              <h4 className="font-semibold text-[#6B4F4E] mb-4">📊 API Usage Analytics</h4>
               <div className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center p-4 bg-blue-50 rounded-lg">
@@ -87,7 +87,7 @@ export default function AgentAccessDemo() {
                     ].map((call, index) => (
                       <div key={index} className="flex items-center justify-between text-xs bg-gray-50 p-2 rounded">
                         <div>
-                          <span className="font-mono text-[#715482]">{call.endpoint}</span>
+                          <span className="font-mono text-[#6B4F4E]">{call.endpoint}</span>
                           <span className="text-gray-500 ml-2">({call.agent})</span>
                         </div>
                         <span className="text-gray-400">{call.time}</span>
@@ -96,7 +96,7 @@ export default function AgentAccessDemo() {
                   </div>
                 </div>
 
-                <div className="p-4 bg-gradient-to-r from-[#715482] to-[#8B6794] rounded-xl text-white">
+                <div className="p-4 bg-gradient-to-r from-[#6B4F4E] to-[#8B6794] rounded-xl text-white">
                   <h5 className="font-semibold mb-2">🚀 Future Ready</h5>
                   <p className="text-sm text-white/90">Your content is now discoverable by next-generation AI agents. You're positioned to benefit from the emerging AI ecosystem.</p>
                 </div>

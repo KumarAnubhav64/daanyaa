@@ -122,26 +122,19 @@ export default function InteractiveFeatureShowcase({ features, className = "" })
       <div className="max-w-6xl mx-auto">
         {/* Feature Buttons */}
         <div className="flex flex-wrap justify-center gap-3 mb-16">
-          {featureData.map((feature, index) => {
-            const isDisabled = index !== 0; // Disable all except the first tab (AI-powered chat)
-            return (
-              <button
-                key={feature.id}
-                onClick={() => !isDisabled && setActiveFeature(index)}
-                disabled={isDisabled}
-                className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 ${
-                  activeFeature === index
-                    ? 'bg-[#715482] text-white shadow-lg'
-                    : isDisabled
-                    ? 'bg-gray-200 text-gray-400 border border-gray-300 cursor-not-allowed opacity-60'
-                    : 'bg-white text-[#715482] border border-[#715482] hover:bg-[#715482] hover:text-white'
-                }`}
-              >
-                {feature.name}
-                {isDisabled && <span className="ml-2 text-xs">(Coming Soon)</span>}
-              </button>
-            );
-          })}
+          {featureData.map((feature, index) => (
+            <button
+              key={feature.id}
+              onClick={() => setActiveFeature(index)}
+              className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 ${
+                activeFeature === index
+                  ? 'bg-[#6B4F4E] text-white shadow-lg'
+                  : 'bg-white text-[#6B4F4E] border border-[#6B4F4E] hover:bg-[#6B4F4E] hover:text-white'
+              }`}
+            >
+              {feature.name}
+            </button>
+          ))}
         </div>
 
         {/* Main Content Grid */}
@@ -150,28 +143,28 @@ export default function InteractiveFeatureShowcase({ features, className = "" })
           <div className="lg:col-span-2 space-y-8">
             {/* Content Section */}
             <div className="text-center lg:text-left">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#715482] mb-6 leading-tight">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#6B4F4E] mb-6 leading-tight">
                 {currentFeature.title}
               </h2>
-              <p className="text-lg md:text-xl text-[#715482] leading-relaxed mb-8">
+              <p className="text-lg md:text-xl text-[#6B4F4E] leading-relaxed mb-8">
                 {currentFeature.description}
               </p>
             </div>
 
             {/* Enhanced Features List */}
             <div className="bg-gradient-to-br from-white to-[#f8f6f4] rounded-3xl p-8 shadow-xl border border-[#e0d5d1]">
-              <h3 className="text-2xl font-bold text-[#715482] mb-6 flex items-center">
-                <span className="w-2 h-2 bg-[#715482] rounded-full mr-3"></span>
+              <h3 className="text-2xl font-bold text-[#6B4F4E] mb-6 flex items-center">
+                <span className="w-2 h-2 bg-[#6B4F4E] rounded-full mr-3"></span>
                 Key Features
               </h3>
               <div className="space-y-5">
                 {currentFeature.features.map((feature, index) => (
                   <div key={index} className="flex items-start group hover:bg-white hover:shadow-md rounded-xl p-2 transition-all duration-300">
-                    <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#715482] to-[#8b6b9c] rounded-full flex items-center justify-center mr-4 shadow-lg group-hover:scale-110 transition-transform duration-300">
+                    <div className="flex-shrink-0 w-8 h-8 bg-gradient-to-br from-[#6B4F4E] to-[#8b6b9c] rounded-full flex items-center justify-center mr-4 shadow-lg group-hover:scale-110 transition-transform duration-300">
                       <span className="text-white text-sm font-bold">{index + 1}</span>
                     </div>
                     <div>
-                      <p className="text-[#715482] leading-relaxed">
+                      <p className="text-[#6B4F4E] leading-relaxed">
                         <span className="font-bold text-lg block mb-1">{feature.split(':')[0]}</span>
                         <span className="text-[#8b6b9c]">{feature.split(':')[1]}</span>
                       </p>

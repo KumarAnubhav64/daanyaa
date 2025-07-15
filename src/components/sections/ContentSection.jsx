@@ -5,13 +5,13 @@ const ContentSection = () => {
     <section className="bg-[#F4EFEB] py-20 px-8">
       <div className="max-w-6xl mx-auto text-center">
         {/* Main Heading */}
-        <h2 className="text-4xl md:text-5xl font-bold text-[#715482] mb-12 leading-tight">
+        <h2 className="text-4xl md:text-5xl font-bold text-[#6B4F4E] mb-12 leading-tight">
           Your audience is evolving. Are your<br />
           tools keeping pace?
         </h2>
 
         {/* Description Paragraphs */}
-        <div className="max-w-5xl mx-auto space-y-8 text-lg md:text-xl text-[#715482] leading-relaxed">
+        <div className="max-w-5xl mx-auto space-y-8 text-lg md:text-xl text-[#6B4F4E] leading-relaxed">
           <p>
             Static content no longer cuts it. Today's users crave interactive,
             immersive experience and ad revenue alone is proving increasingly

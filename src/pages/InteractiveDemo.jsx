@@ -10,14 +10,14 @@ export default function InteractiveDemo() {
       label: 'Starter',
       content: (
         <div className="text-center">
-          <div className="text-4xl font-bold text-[#715482] mb-4">$29<span className="text-lg font-normal">/month</span></div>
+          <div className="text-4xl font-bold text-[#6B4F4E] mb-4">$29<span className="text-lg font-normal">/month</span></div>
           <ul className="space-y-3 text-left max-w-md mx-auto">
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> AI Chat Integration</li>
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> Basic Analytics</li>
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> Up to 10K monthly queries</li>
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> Email Support</li>
           </ul>
-          <button className="mt-6 bg-[#715482] text-white px-8 py-3 rounded-full font-medium hover:opacity-90 transition">
+          <button className="mt-6 bg-[#6B4F4E] text-white px-8 py-3 rounded-full font-medium hover:opacity-90 transition">
             Get Started
           </button>
         </div>
@@ -28,7 +28,7 @@ export default function InteractiveDemo() {
       label: 'Professional',
       content: (
         <div className="text-center">
-          <div className="text-4xl font-bold text-[#715482] mb-4">$99<span className="text-lg font-normal">/month</span></div>
+          <div className="text-4xl font-bold text-[#6B4F4E] mb-4">$99<span className="text-lg font-normal">/month</span></div>
           <ul className="space-y-3 text-left max-w-md mx-auto">
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> Everything in Starter</li>
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> AI Search & Audio</li>
@@ -36,7 +36,7 @@ export default function InteractiveDemo() {
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> Up to 100K monthly queries</li>
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> Priority Support</li>
           </ul>
-          <button className="mt-6 bg-[#715482] text-white px-8 py-3 rounded-full font-medium hover:opacity-90 transition">
+          <button className="mt-6 bg-[#6B4F4E] text-white px-8 py-3 rounded-full font-medium hover:opacity-90 transition">
             Start Free Trial
           </button>
         </div>
@@ -47,7 +47,7 @@ export default function InteractiveDemo() {
       label: 'Enterprise',
       content: (
         <div className="text-center">
-          <div className="text-4xl font-bold text-[#715482] mb-4">Custom</div>
+          <div className="text-4xl font-bold text-[#6B4F4E] mb-4">Custom</div>
           <ul className="space-y-3 text-left max-w-md mx-auto">
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> Everything in Professional</li>
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> Custom AI Training</li>
@@ -55,7 +55,7 @@ export default function InteractiveDemo() {
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> Unlimited queries</li>
             <li className="flex items-center"><span className="text-green-500 mr-2">✓</span> Dedicated Support</li>
           </ul>
-          <button className="mt-6 border-2 border-[#715482] text-[#715482] px-8 py-3 rounded-full font-medium hover:bg-[#715482] hover:text-white transition">
+          <button className="mt-6 border-2 border-[#6B4F4E] text-[#6B4F4E] px-8 py-3 rounded-full font-medium hover:bg-[#6B4F4E] hover:text-white transition">
             Contact Sales
           </button>
         </div>
@@ -69,7 +69,7 @@ export default function InteractiveDemo() {
       label: 'AI Chat',
       content: (
         <div>
-          <h3 className="text-2xl font-bold text-[#715482] mb-4">Intelligent Conversations</h3>
+          <h3 className="text-2xl font-bold text-[#6B4F4E] mb-4">Intelligent Conversations</h3>
           <p className="mb-4">Our AI Chat system provides 24/7 customer support, trained specifically on your content and brand voice.</p>
           <div className="bg-gray-50 p-4 rounded-lg">
             <p className="text-sm text-gray-600 mb-2">Demo conversation:</p>
@@ -86,7 +86,7 @@ export default function InteractiveDemo() {
       label: 'AI Search',
       content: (
         <div>
-          <h3 className="text-2xl font-bold text-[#715482] mb-4">Semantic Search</h3>
+          <h3 className="text-2xl font-bold text-[#6B4F4E] mb-4">Semantic Search</h3>
           <p className="mb-4">Advanced search capabilities that understand context and intent, not just keywords.</p>
           <div className="bg-gray-50 p-4 rounded-lg">
             <input
@@ -94,7 +94,7 @@ export default function InteractiveDemo() {
               placeholder="Try searching: 'content that helps increase revenue'"
               className="w-full p-3 border rounded-lg"
             />
-            <button className="mt-2 bg-[#715482] text-white px-4 py-2 rounded">Search</button>
+            <button className="mt-2 bg-[#6B4F4E] text-white px-4 py-2 rounded">Search</button>
           </div>
         </div>
       )
@@ -104,13 +104,13 @@ export default function InteractiveDemo() {
       label: 'AI Audio',
       content: (
         <div>
-          <h3 className="text-2xl font-bold text-[#715482] mb-4">Text-to-Speech</h3>
+          <h3 className="text-2xl font-bold text-[#6B4F4E] mb-4">Text-to-Speech</h3>
           <p className="mb-4">Convert any written content into natural-sounding audio for accessibility and convenience.</p>
           <div className="bg-gray-50 p-4 rounded-lg">
             <div className="flex items-center space-x-4">
-              <button className="bg-[#715482] text-white px-4 py-2 rounded">▶ Play Sample</button>
+              <button className="bg-[#6B4F4E] text-white px-4 py-2 rounded">▶ Play Sample</button>
               <div className="flex-1 bg-gray-300 h-2 rounded">
-                <div className="bg-[#715482] h-2 rounded w-1/3"></div>
+                <div className="bg-[#6B4F4E] h-2 rounded w-1/3"></div>
               </div>
             </div>
           </div>
@@ -130,7 +130,7 @@ export default function InteractiveDemo() {
 
         {/* TabSwitcher Example 1: Pills variant */}
         <div className="mb-20">
-          <h2 className="text-3xl font-bold text-[#715482] text-center mb-8">Pricing Plans (Pills Style)</h2>
+          <h2 className="text-3xl font-bold text-[#6B4F4E] text-center mb-8">Pricing Plans (Pills Style)</h2>
           <TabSwitcher
             tabs={pricingTabs}
             variant="pills"
@@ -140,7 +140,7 @@ export default function InteractiveDemo() {
 
         {/* TabSwitcher Example 2: Default variant */}
         <div className="mb-20">
-          <h2 className="text-3xl font-bold text-[#715482] text-center mb-8">Feature Overview (Default Style)</h2>
+          <h2 className="text-3xl font-bold text-[#6B4F4E] text-center mb-8">Feature Overview (Default Style)</h2>
           <TabSwitcher
             tabs={featureTabs}
             variant="default"
@@ -150,7 +150,7 @@ export default function InteractiveDemo() {
 
         {/* TabSwitcher Example 3: Underline variant */}
         <div className="mb-20">
-          <h2 className="text-3xl font-bold text-[#715482] text-center mb-8">Simple Tabs (Underline Style)</h2>
+          <h2 className="text-3xl font-bold text-[#6B4F4E] text-center mb-8">Simple Tabs (Underline Style)</h2>
           <TabSwitcher
             tabs={[
               {

@@ -14,26 +14,26 @@ export default function TabSwitcher({
     default: {
       container: "bg-white rounded-2xl p-8 shadow-sm",
       tabsContainer: "flex flex-wrap gap-2 mb-6 p-1 bg-gray-100 rounded-lg",
-      activeTab: "bg-[#715482] text-white",
-      inactiveTab: "bg-transparent text-[#715482] hover:bg-white",
+      activeTab: "bg-[#6B4F4E] text-white",
+      inactiveTab: "bg-transparent text-[#6B4F4E] hover:bg-white",
       tab: "px-4 py-2 rounded-md font-medium transition-all duration-200",
-      content: "text-[#715482]"
+      content: "text-[#6B4F4E]"
     },
     pills: {
       container: "bg-transparent",
       tabsContainer: "flex flex-wrap justify-center gap-3 mb-8",
-      activeTab: "bg-[#715482] text-white shadow-lg",
-      inactiveTab: "bg-white text-[#715482] border border-[#715482] hover:bg-[#715482] hover:text-white",
+      activeTab: "bg-[#6B4F4E] text-white shadow-lg",
+      inactiveTab: "bg-white text-[#6B4F4E] border border-[#6B4F4E] hover:bg-[#6B4F4E] hover:text-white",
       tab: "px-6 py-3 rounded-full font-medium transition-all duration-300",
-      content: "bg-white rounded-2xl p-8 shadow-sm text-[#715482]"
+      content: "bg-white rounded-2xl p-8 shadow-sm text-[#6B4F4E]"
     },
     underline: {
       container: "bg-transparent",
       tabsContainer: "flex gap-6 mb-6 border-b border-gray-200",
-      activeTab: "text-[#715482] border-b-2 border-[#715482]",
-      inactiveTab: "text-gray-600 hover:text-[#715482]",
+      activeTab: "text-[#6B4F4E] border-b-2 border-[#6B4F4E]",
+      inactiveTab: "text-gray-600 hover:text-[#6B4F4E]",
       tab: "pb-3 font-medium transition-all duration-200",
-      content: "pt-6 text-[#715482]"
+      content: "pt-6 text-[#6B4F4E]"
     }
   };
 

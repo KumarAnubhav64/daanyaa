@@ -2,14 +2,14 @@
 export const NAV_LINKS = [
   { label: "The Platform", href: "/platform" },
   { label: "Monetization", href: "/monetization" },
-  { label: "Why DAaranya.AI?", href: "/why-publisher-ai" },
+  { label: "Why DAaranya.AI?", href: "/why-us" },
   { label: "Pricing", href: "/pricing" },
   { label: "Contact", href: "/contact" },
 ];
 
 // Brand colors
 export const BRAND_COLORS = {
-  primary: "#715482",
+  primary: "#6B4F4E",
   background: "#F4EFEB",
   white: "#FFFFFF",
   gray: "#D9D9D9",

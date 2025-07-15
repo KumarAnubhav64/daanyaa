@@ -6,6 +6,8 @@ import Pricing from '../pages/Pricing';
 import Contact from '../pages/Contact';
 import Login from '../pages/Login';
 import Signup from '../pages/Signup';
+import Monetization from '../pages/Monetization';
+import WhyUs from '../pages/WhyUs';
 import ComponentExamples from '../pages/ComponentExamples';
 import InteractiveDemo from '../pages/InteractiveDemo';
 
@@ -46,14 +48,17 @@ export const router = createBrowserRouter([
         path: 'interactive-demo',
         element: <InteractiveDemo />,
       },
-      // Add more routes as needed
       {
         path: 'monetization',
-        element: <div className="py-32 text-center"><h1 className="text-4xl">Monetization Page - Coming Soon</h1></div>,
+        element: <Monetization />,
+      },
+      {
+        path: 'why-us',
+        element: <WhyUs />,
       },
       {
         path: 'why-publisher-ai',
-        element: <div className="py-32 text-center"><h1 className="text-4xl">Why DAaranya.AI - Coming Soon</h1></div>,
+        element: <WhyUs />,
       },
     ],
   },

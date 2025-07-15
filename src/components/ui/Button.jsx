@@ -4,7 +4,7 @@ export function Button({ children, className = "", variant = "default", ...props
     "inline-flex items-center justify-center text-sm  font-bold transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none";
 
   const variants = {
-    default: "bg-[#715482]-600 text-white hover:opacity-90",
+    default: "bg-[#6B4F4E]-600 text-white hover:opacity-90",
     outline: "border border-gray-500 text-black hover:bg-gray-100",
     ghost: "text-black hover:bg-gray-100",
   };

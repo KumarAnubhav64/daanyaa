@@ -15,20 +15,20 @@ export default function SectionHeader({
 
   const variants = {
     default: {
-      title: "text-3xl md:text-4xl font-bold text-[#715482] mb-4 leading-tight",
-      caption: "text-lg text-[#715482]"
+      title: "text-3xl md:text-4xl font-bold text-[#6B4F4E] mb-4 leading-tight",
+      caption: "text-lg text-[#6B4F4E]"
     },
     large: {
-      title: "text-4xl md:text-5xl font-bold text-[#715482] mb-6 leading-tight",
-      caption: "text-xl text-[#715482]"
+      title: "text-4xl md:text-5xl font-bold text-[#6B4F4E] mb-6 leading-tight",
+      caption: "text-xl text-[#6B4F4E]"
     },
     small: {
-      title: "text-2xl md:text-3xl font-bold text-[#715482] mb-3 leading-tight",
-      caption: "text-base md:text-lg text-[#715482]"
+      title: "text-2xl md:text-3xl font-bold text-[#6B4F4E] mb-3 leading-tight",
+      caption: "text-base md:text-lg text-[#6B4F4E]"
     },
     feature: {
-      title: "text-2xl font-bold text-[#715482] mb-2",
-      caption: "text-[#715482] leading-relaxed"
+      title: "text-2xl font-bold text-[#6B4F4E] mb-2",
+      caption: "text-[#6B4F4E] leading-relaxed"
     }
   };
 

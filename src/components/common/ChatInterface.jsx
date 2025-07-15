@@ -104,7 +104,7 @@ export default function ChatInterface({
   return (
     <div className={`bg-white rounded-2xl shadow-lg overflow-hidden ${className}`}>
       {/* Chat Header */}
-      <div className="bg-[#715482] text-white p-6">
+      <div className="bg-[#6B4F4E] text-white p-6">
         <div className="flex items-center gap-3">
           <div className="bg-white/20 p-2 rounded-full">
             <Bot size={24} />
@@ -124,7 +124,7 @@ export default function ChatInterface({
             <button
               key={index}
               onClick={() => handleQuickQuestion(question)}
-              className="text-xs bg-white border border-gray-300 text-[#715482] px-3 py-1 rounded-full hover:bg-[#715482] hover:text-white transition-colors"
+              className="text-xs bg-white border border-gray-300 text-[#6B4F4E] px-3 py-1 rounded-full hover:bg-[#6B4F4E] hover:text-white transition-colors"
             >
               {question}
             </button>
@@ -143,8 +143,8 @@ export default function ChatInterface({
           >
             <div className={`p-2 rounded-full ${
               message.type === 'user'
-                ? 'bg-[#715482] text-white'
-                : 'bg-gray-100 text-[#715482]'
+                ? 'bg-[#6B4F4E] text-white'
+                : 'bg-gray-100 text-[#6B4F4E]'
             }`}>
               {message.type === 'user' ? <User size={16} /> : <Bot size={16} />}
             </div>
@@ -153,7 +153,7 @@ export default function ChatInterface({
             }`}>
               <div className={`p-3 rounded-2xl ${
                 message.type === 'user'
-                  ? 'bg-[#715482] text-white'
+                  ? 'bg-[#6B4F4E] text-white'
                   : 'bg-gray-100 text-gray-800'
               }`}>
                 <p className="text-sm leading-relaxed">{message.message}</p>
@@ -166,7 +166,7 @@ export default function ChatInterface({
         {/* Typing Indicator */}
         {isTyping && (
           <div className="flex items-start gap-3">
-            <div className="bg-gray-100 text-[#715482] p-2 rounded-full">
+            <div className="bg-gray-100 text-[#6B4F4E] p-2 rounded-full">
               <Bot size={16} />
             </div>
             <div className="bg-gray-100 p-3 rounded-2xl">
@@ -190,7 +190,7 @@ export default function ChatInterface({
               onChange={(e) => setInputValue(e.target.value)}
               onKeyPress={handleKeyPress}
               placeholder={placeholder}
-              className="w-full p-3 pr-12 border border-gray-300 rounded-full resize-none focus:ring-2 focus:ring-[#715482] focus:border-transparent"
+              className="w-full p-3 pr-12 border border-gray-300 rounded-full resize-none focus:ring-2 focus:ring-[#6B4F4E] focus:border-transparent"
               rows="1"
               style={{ minHeight: '44px', maxHeight: '120px' }}
             />
@@ -198,7 +198,7 @@ export default function ChatInterface({
           <button
             onClick={handleSendMessage}
             disabled={!inputValue.trim()}
-            className="bg-[#715482] text-white p-3 rounded-full hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
+            className="bg-[#6B4F4E] text-white p-3 rounded-full hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <Send size={20} />
           </button>

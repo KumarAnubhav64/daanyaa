@@ -25,7 +25,7 @@ const InfiniteScrollingLogosMarquee = () => {
           {companyNames.map((name) => (
             <span
               key={name}
-              className="text-lg font-semibold text-white bg-[#715482] rounded-full px-6 py-2 mx-8 inline-block shadow"
+              className="text-lg font-semibold text-white bg-[#6B4F4E] rounded-full px-6 py-2 mx-8 inline-block shadow"
               style={{ display: 'inline-block' }}
             >
               {name}
