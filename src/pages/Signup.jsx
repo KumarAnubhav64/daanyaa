@@ -99,10 +99,10 @@ const Signup = () => {
     { text: 'Contains lowercase letter', met: /[a-z]/.test(formData.password) },
     { text: 'Contains number', met: /\d/.test(formData.password) }
   ];  return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 flex items-center justify-center px-4 py-8 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-[#F4EFEB] via-[#F8F4F0] to-[#F4EFEB] flex items-center justify-center px-4 py-8 relative overflow-hidden">
       {/* Enhanced Animated Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-10 left-20 w-80 h-80 bg-gradient-to-r from-[#6B4F4E]/20 to-purple-400/20 rounded-full blur-3xl animate-pulse"></div>
+        <div className="absolute top-10 left-20 w-80 h-80 bg-gradient-to-r from-[#6B4F4E]/20  rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute bottom-10 right-20 w-96 h-96 bg-gradient-to-r from-blue-400/15 to-indigo-400/15 rounded-full blur-3xl animate-pulse delay-1000"></div>
         <div className="absolute top-1/3 right-1/4 w-64 h-64 bg-gradient-to-r from-violet-400/10 to-purple-400/10 rounded-full blur-3xl animate-pulse delay-500"></div>
 
@@ -124,10 +124,10 @@ const Signup = () => {
       <div className="max-w-md w-full space-y-8 relative z-10 animate-fade-in-up">
         <div className="text-center">
           <div className="inline-flex items-center gap-2 mb-8 group">
-            <Link to="/" className="text-3xl font-bold bg-gradient-to-r from-[#6B4F4E] to-[#8B6B9A] bg-clip-text text-transparent tracking-tight group-hover:scale-105 transition-transform duration-300">
+            <Link to="/" className="text-3xl font-bold bg-gradient-to-r from-[#6B4F4E] to-[#856362] bg-clip-text text-transparent tracking-tight group-hover:scale-105 transition-transform duration-300">
               DAaranya.AI
             </Link>
-            <Sparkles className="w-6 h-6 text-[#6B4F4E] animate-pulse" />
+
           </div>
           <h1 className="text-3xl font-bold text-gray-900 mb-3">
             {step === 2 && formData.firstName ? `Welcome ${formData.firstName}!` : 'Create your account'}
@@ -285,7 +285,7 @@ const Signup = () => {
                   className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-[#6B4F4E]/20 focus:border-[#6B4F4E] outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 hover:border-gray-300 bg-gray-50/50 focus:bg-white"
                   placeholder="Enter your valid phone number"
                 />
-                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-[#6B4F4E] to-purple-500 scale-x-0 group-focus-within:scale-x-100 transition-transform duration-300 origin-left"></div>
+                <div className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-[#6B4F4E]  scale-x-0 group-focus-within:scale-x-100 transition-transform duration-300 origin-left"></div>
               </div>
             </div>
 
@@ -389,7 +389,7 @@ const Signup = () => {
 
             <button
               type="submit"
-              className="w-full bg-gradient-to-r from-[#6B4F4E] to-[#8B6B9A] text-white py-3.5 px-6 rounded-xl font-semibold hover:from-[#5a3f6b] hover:to-[#6B4F4E] transform hover:scale-[1.02] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#6B4F4E] focus:ring-offset-2 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none group relative overflow-hidden"
+              className="w-full bg-gradient-to-r from-[#6B4F4E] to-[#6B4F4E] text-white py-3.5 px-6 rounded-xl font-semibold hover:from-[#5D4342] hover:to-[#5D4342] transform hover:scale-[1.02] transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-[#6B4F4E] focus:ring-offset-2 shadow-lg hover:shadow-xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none group relative overflow-hidden"
               disabled={!formData.agreeToTerms}
             >
               <div className="absolute inset-0 bg-white/20 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-500"></div>
@@ -419,7 +419,7 @@ const Signup = () => {
                     className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl focus:ring-2 focus:ring-[#6B4F4E]/20 focus:border-[#6B4F4E] outline-none transition-all duration-300 text-gray-900 placeholder-gray-400 hover:border-gray-300 bg-gray-50/50 focus:bg-white"
                     placeholder="Enter your organization name"
                   />
-                  <div className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-[#6B4F4E] to-purple-500 scale-x-0 group-focus-within:scale-x-100 transition-transform duration-300 origin-left"></div>
+                  <div className="absolute inset-x-0 bottom-0 h-0.5 bg-gradient-to-r from-[#6B4F4E] scale-x-0 group-focus-within:scale-x-100 transition-transform duration-300 origin-left"></div>
                 </div>
               </div>
 
